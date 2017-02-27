@@ -1,0 +1,156 @@
+@CHARSET "UTF-8";
+body{
+	background-color: #0E0E0E;
+	font-family: "微软雅黑";
+	word-spacing: 0.5em;
+}
+#all{
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+#header{
+	background-color: #333333;
+}
+#section{
+	background-color: #DEDEDE;
+	padding: 10px;
+}
+.article{
+	background-color: #FFFFFF;
+	margin: 20px 10px;
+	padding: 30px 20px;
+	border-right: solid #8F8F8F 2px;
+	border-bottom: solid #8F8F8F 2px;
+	border-top: solid #DBDBDB 1px;
+	border-left: solid #DBDBDB 1px;
+}
+img{
+	margin: 10px;
+}
+ul li{
+	list-style-type: none;
+}
+#header img{
+	margin-left: 30px;
+}
+#nav{
+	float: right;
+}
+#nav li,a{
+	display: inline-block;
+	font-size: 90%;
+	margin: 20px 5px;
+	text-decoration: none;
+}
+#nav a:link{
+	color: #FFFFFF;
+}
+#nav a:visited{
+	color: #8E9195;
+}
+h1,h2{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+h1{
+	font-size: 130%;
+}
+h2{
+	font-size: 110%;
+}
+p{
+	padding-top: 10px;
+	text-indent: 2em;
+}
+a{
+	padding: 0;
+	margin: 0;
+}
+.editor{
+	font-size: 90%;
+	text-indent: 0;
+}
+.article ul,ol{
+	margin-left: 40px;
+}
+.img{
+	width: 200px;
+	height: 250px;
+	border: solid black 1px;
+	margin: 20px;
+	text-align: center;
+}
+.img img{
+	width: 180px;
+	height: 180px;
+}
+.img p{
+	text-indent: 0;
+}
+table{
+	border-collapse: collapse;
+	width:100%;
+}
+thead tr{
+	background-color: black;
+	color: white;
+	text-align: left;
+}
+td{
+	border: solid #DBDBDB 1.5px;
+}
+tfoot tr{
+	background-color: #CCCCCC;
+}
+tfoot td{
+	border: none;
+}
+#form{
+	background-image: url(../images/celan.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	padding-top: 17px;
+	padding-left: 30px;
+}
+.title{
+	color: #DBDBDB;
+	font-size: 90%;
+	padding-bottom: 10px;
+}
+textarea{
+	width: 500px;
+	height:  60px;
+}
+form{
+	margin-left: 200px;
+}
+.tablerow{
+	display: table-row;
+}
+.tablerow p{
+	display: table-cell;
+	vertical-align: top;
+	padding: 3px;
+}
+.tablerow p:FIRST-CHILD{
+	text-align: right;
+}
+#submit {
+	display: block;
+	position: relative;
+	left: -200px;
+	width: 950px;
+	height: 30px;
+	background-color: #3355D0;
+	border: none;
+	border-radius: 10px;
+	font-weight: bold;
+	color: white;
+}
+#foot{
+	padding-bottom: 30px;
+	font-size: 90%;
+	text-align: center;
+	color: white;
+}
