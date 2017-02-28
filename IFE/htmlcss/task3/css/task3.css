@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+body{
+	padding: 20px;
+}
+div{
+	padding: 20px;
+	border: solid #999 1px;
+}
+#all{
+	background-color: #eee;
+}
+#right{
+	width: 120px;
+	float: right;
+	text-align: center;
+}
+#center{
+	margin-left: 240px;
+	margin-right: 170px;
+}
+#left{
+	width:200px;
+	position: absolute;
+	left: 40px;
+	top: 50px;
+	padding: 10px;
+}
+img{
+	width: 80px;
+	height: 80px;
+	margin: 0px;
+}
+p{
+	margin: 0px;
+}
+#team{
+	border: none;
+	display: inline-block;
+	width: 80px;
+	padding: 0px;
+	text-align: center;
+	position: relative;
+	top: -60px;
+	left: 10px;
+}
+#logo{
+	margin: 20px;
+}
